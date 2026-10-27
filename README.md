@@ -1,6 +1,6 @@
 <div align="center">
 
-![htakumi08 — Build. Explore. Refine.](./assets/header.svg)
+![htakumi08 — Build. Explore. Refine.](./assets/header.svg?v=purple-1)
 
 **気になった技術を、動くものに。**
 
@@ -27,15 +27,15 @@ approach: Build → Explore → Refine
 
 ## ◈ Selected Projects
 
-<a href="https://github.com/htakumi08/Re-Decide"><img src="./assets/project-re-decide.svg" width="100%" alt="Re:Decide — Decision-making journal. React, TypeScript, AWS Lambda, DynamoDB, Terraform." /></a>
+<a href="https://github.com/htakumi08/Re-Decide"><img src="./assets/project-re-decide.svg?v=purple-1" width="100%" alt="Re:Decide — Decision-making journal. React, TypeScript, AWS Lambda, DynamoDB, Terraform." /></a>
 
 **[Re:Decide ↗](https://github.com/htakumi08/Re-Decide)** — 選択肢・評価基準・判断理由・振り返りを記録する、意思決定のためのプロトタイプ。
 
-<a href="https://github.com/htakumi08/devlab-board"><img src="./assets/project-devlab.svg" width="100%" alt="devlab-board — A playground for Go, React, PostgreSQL and AWS architecture." /></a>
+<a href="https://github.com/htakumi08/devlab-board"><img src="./assets/project-devlab.svg?v=purple-1" width="100%" alt="devlab-board — A playground for Go, React, PostgreSQL and AWS architecture." /></a>
 
 **[devlab-board ↗](https://github.com/htakumi08/devlab-board)** — GoとReactで機能を試しながら、AWSの複数構成を比較する開発実験ダッシュボード。
 
-<a href="https://github.com/htakumi08/mcp-pr-review"><img src="./assets/project-mcp.svg" width="100%" alt="mcp-pr-review — Connect requirements and pull requests. Python, MCP, GitHub, Backlog." /></a>
+<a href="https://github.com/htakumi08/mcp-pr-review"><img src="./assets/project-mcp.svg?v=purple-1" width="100%" alt="mcp-pr-review — Connect requirements and pull requests. Python, MCP, GitHub, Backlog." /></a>
 
 **[mcp-pr-review ↗](https://github.com/htakumi08/mcp-pr-review)** — GitHub PRとBacklog課題をつなぎ、要求の整理からレビューまでを支えるMCPサーバーとスキル。
 
@@ -75,7 +75,7 @@ approach: Build → Explore → Refine
 
 ## ◈ Activity
 
-![GitHub activity summary](./assets/stats.svg)
+![GitHub activity summary](./assets/stats.svg?v=purple-1)
 
 <sub>リポジトリ数・スター・主要言語は、プロフィール用リポジトリとforkを除く公開プロジェクトから集計。Contributions / Active daysは過去1年のGitHub活動です。</sub>
 
@@ -85,7 +85,7 @@ approach: Build → Explore → Refine
 
 **日々の小さな変更を、ひとつの街に。**
 
-![Contribution City — GitHubの活動を1日1棟の建物で表現](./assets/city.svg)
+![Contribution City — GitHubの活動を1日1棟の建物で表現](./assets/city.svg?v=purple-1)
 
 <sub>1棟 = 1日。高さはコントリビューション数に応じて変化します。毎日自動更新。</sub>
 
@@ -94,13 +94,13 @@ approach: Build → Explore → Refine
 
 <br>
 
-![GitHub contribution heatmap with an animated scan line](./assets/activity.svg)
+![GitHub contribution heatmap with an animated scan line](./assets/activity.svg?v=purple-1)
 
 </details>
 
 <br><br>
 
-![Always building. Always learning.](./assets/footer.svg)
+![Always building. Always learning.](./assets/footer.svg?v=purple-1)
 
 <div align="center">
 <sub>Layout inspiration: <a href="https://github.com/uzuchan">uzuchan</a> · Icons: <a href="https://skillicons.dev">Skill Icons</a> · <a href="./docs/MAINTENANCE.md">Profile maintenance</a></sub>
