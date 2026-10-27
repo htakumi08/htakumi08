@@ -14,8 +14,8 @@ from pathlib import Path
 
 USER = "htakumi08"
 ROOT = Path(__file__).resolve().parents[1]
-BG, PANEL, CYAN, BLUE, WHITE, MUTED = (
-    "#07111f", "#0c1c30", "#42e8e0", "#438bff", "#edf7ff", "#8fa8c4"
+BG, PANEL, LAVENDER, VIOLET, WHITE, MUTED = (
+    "#100a1d", "#1b122e", "#c4a2ff", "#9b6dff", "#f5f0ff", "#afa0c5"
 )
 
 
@@ -65,16 +65,16 @@ def text(x: float, y: float, value: object, size: int = 16, color: str = WHITE, 
 def frame(width: int, height: int, title: str, body: str) -> str:
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="{html.escape(title, quote=True)}">
 <title>{html.escape(title)}</title>
-<defs><linearGradient id="accent"><stop stop-color="{CYAN}"/><stop offset="1" stop-color="{BLUE}"/></linearGradient></defs>
+<defs><linearGradient id="accent"><stop stop-color="{LAVENDER}"/><stop offset="1" stop-color="{VIOLET}"/></linearGradient></defs>
 <style>text{{font-family:Inter,Segoe UI,Arial,sans-serif}}.mono{{font-family:SFMono-Regular,Consolas,monospace}}@media(prefers-reduced-motion:reduce){{.motion{{display:none}}}}</style>
-<rect x="1" y="1" width="{width-2}" height="{height-2}" rx="20" fill="{BG}" stroke="#1d3550"/>
+<rect x="1" y="1" width="{width-2}" height="{height-2}" rx="20" fill="{BG}" stroke="#38264e"/>
 {body}</svg>'''
 
 
 def render_stats(summary: dict, days: list[dict]) -> str:
     total = sum(day["count"] for day in days)
     active = sum(day["count"] > 0 for day in days)
-    body = text(34, 40, "ACTIVITY / AT A GLANCE", 14, CYAN, 'class="mono" letter-spacing="2"')
+    body = text(34, 40, "ACTIVITY / AT A GLANCE", 14, LAVENDER, 'class="mono" letter-spacing="2"')
     for i, (value, label) in enumerate([
         (summary["projects"], "PUBLIC PROJECTS"), (total, "CONTRIBUTIONS"),
         (active, "ACTIVE DAYS"), (summary["stars"], "PROJECT STARS"),
@@ -100,7 +100,7 @@ def render_city(days: list[dict]) -> str:
         x = 125 + day["week"] * dx - day["weekday"] * 12
         y = 128 + day["week"] * 2.5 + day["weekday"] * 12
         h = 2 if day["count"] == 0 else 9 + math.log2(day["count"] + 1) * 12
-        front, side, top = ("#0e273e", "#0a1e31", "#19384e") if not day["count"] else ("#147b9c", "#2251a1", CYAN)
+        front, side, top = ("#281b3d", "#1d132e", "#3d2a55") if not day["count"] else ("#8151b5", "#5938a0", LAVENDER)
         points = [(x, y-h), (x+dx-2, y+2.5-h), (x+dx-14, y+12-h), (x-12, y+9.5-h)]
         p = " ".join(f"{a:.1f},{b:.1f}" for a, b in points)
         label = html.escape(f'{day["date"]}: {day["count"]} contributions')
@@ -108,20 +108,20 @@ def render_city(days: list[dict]) -> str:
         body += f'<path d="M{x-12},{y+9.5-h} L{x+dx-14},{y+12-h} V{y+12} L{x-12},{y+9.5}Z" fill="{front}"/>'
         body += f'<path d="M{x+dx-14},{y+12-h} L{x+dx-2},{y+2.5-h} V{y+2.5} L{x+dx-14},{y+12}Z" fill="{side}"/>'
         body += f'<polygon points="{p}" fill="{top}" stroke="{BG}" stroke-width="0.6"/></g>'
-    body += '<path d="M60 362H900" stroke="#1d3550"/>'
-    body += text(34, 397, f'{sum(d["count"] for d in days)} contributions · past year', 14, CYAN, 'class="mono"')
+    body += '<path d="M60 362H900" stroke="#38264e"/>'
+    body += text(34, 397, f'{sum(d["count"] for d in days)} contributions · past year', 14, LAVENDER, 'class="mono"')
     body += text(650, 397, "ONE BLOCK = ONE DAY", 12, MUTED, 'class="mono" letter-spacing="1"')
     return frame(960, 428, "3D contribution skyline based on real GitHub activity", body)
 
 
 def render_grid(days: list[dict]) -> str:
-    body = text(34, 40, "COMMIT SIGNAL", 14, CYAN, 'class="mono" letter-spacing="2"')
-    colors = ["#11283d", "#13566c", "#197d97", "#29aebb", CYAN]
+    body = text(34, 40, "COMMIT SIGNAL", 14, LAVENDER, 'class="mono" letter-spacing="2"')
+    colors = ["#271a3b", "#49306e", "#6d469d", "#986bd0", LAVENDER]
     for day in days:
         level = min(4, math.ceil(math.log2(day["count"] + 1)))
         x, y = 36 + day["week"] * 16.6, 65 + day["weekday"] * 17
         body += f'<rect x="{x:.1f}" y="{y}" width="12.5" height="12.5" rx="3" fill="{colors[level]}"><title>{day["date"]}: {day["count"]} contributions</title></rect>'
-    body += '<g class="motion"><rect x="36" y="62" width="2" height="120" fill="#75fff4" opacity="0.7"><animate attributeName="x" values="36;918;36" dur="14s" repeatCount="indefinite"/></rect></g>'
+    body += '<g class="motion"><rect x="36" y="62" width="2" height="120" fill="#e2cfff" opacity="0.7"><animate attributeName="x" values="36;918;36" dur="14s" repeatCount="indefinite"/></rect></g>'
     body += text(34, 218, "PUBLIC SIGNALS / CONTINUOUS EXPLORATION", 11, MUTED, 'class="mono" letter-spacing="1"')
     return frame(960, 242, "Contribution heatmap with an animated scan line", body)
 

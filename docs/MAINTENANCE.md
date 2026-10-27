@@ -2,7 +2,7 @@
 
 ## Design
 
-Midnight navy `#07111f`, electric blue `#438bff`, ice cyan `#42e8e0`.
+Midnight purple `#100a1d`, electric violet `#9b6dff`, soft lavender `#c4a2ff`.
 The header, footer, project cards, city, statistics and heatmap are original SVG artwork.
 The section structure was inspired by [uzuchan](https://github.com/uzuchan).
 Technology icons are served by [Skill Icons](https://github.com/tandpfun/skill-icons).

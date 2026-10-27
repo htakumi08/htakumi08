@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="120" viewBox="0 0 960 120" role="img" aria-label="Always building. Always learning. Thanks for stopping by.">
-<defs><linearGradient id="line"><stop stop-color="#42e8e0" stop-opacity="0"/><stop offset=".5" stop-color="#42e8e0"/><stop offset="1" stop-color="#438bff" stop-opacity="0"/></linearGradient></defs>
-<rect width="960" height="120" rx="18" fill="#07111f"/>
+<defs><linearGradient id="line"><stop stop-color="#c4a2ff" stop-opacity="0"/><stop offset=".5" stop-color="#c4a2ff"/><stop offset="1" stop-color="#9b6dff" stop-opacity="0"/></linearGradient></defs>
+<rect width="960" height="120" rx="18" fill="#100a1d"/>
 <path d="M60 1H900" stroke="url(#line)"/>
-<text x="480" y="54" text-anchor="middle" fill="#d7eaff" font-family="Segoe UI,Arial,sans-serif" font-size="21">Always building. Always learning.</text>
-<text x="480" y="85" text-anchor="middle" fill="#7c9bbb" font-family="Consolas,monospace" font-size="12" letter-spacing="2">THANKS FOR STOPPING BY / HTAKUMI08</text>
+<text x="480" y="54" text-anchor="middle" fill="#e9dcff" font-family="Segoe UI,Arial,sans-serif" font-size="21">Always building. Always learning.</text>
+<text x="480" y="85" text-anchor="middle" fill="#a795bf" font-family="Consolas,monospace" font-size="12" letter-spacing="2">THANKS FOR STOPPING BY / HTAKUMI08</text>
 </svg>
