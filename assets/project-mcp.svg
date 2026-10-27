@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="176" viewBox="0 0 960 176" role="img" aria-label="mcp-pr-review">
+<title>mcp-pr-review</title>
+<defs><linearGradient id="accent"><stop stop-color="#42e8e0"/><stop offset="1" stop-color="#438bff"/></linearGradient></defs>
+<style>text{font-family:Inter,Segoe UI,Arial,sans-serif}.mono{font-family:SFMono-Regular,Consolas,monospace}@media(prefers-reduced-motion:reduce){.motion{display:none}}</style>
+<rect x="1" y="1" width="958" height="174" rx="20" fill="#07111f" stroke="#1d3550"/>
+<rect x="22" y="22" width="5" height="132" rx="2.5" fill="#67baff"/><text x="50" y="48" font-size="11" fill="#67baff" class="mono" letter-spacing="2">PROJECT / 03</text><text x="49" y="89" font-size="32" fill="#edf7ff" font-weight="700">mcp-pr-review</text><text x="50" y="119" font-size="16" fill="#8fa8c4" >Connect requirements. Sharpen the review.</text><text x="50" y="151" font-size="11" fill="#67baff" class="mono" letter-spacing="1">PYTHON / MCP / GITHUB / BACKLOG</text><circle cx="858" cy="88" r="46" fill="#0c1c30" stroke="#254665"/><text x="858" y="102" font-size="44" fill="#67baff" text-anchor="middle">⌁</text></svg>

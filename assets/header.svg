@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="htakumi08 — Build. Explore. Refine. Web, Cloud and Developer Tools">
+  <title>htakumi08 — Build. Explore. Refine.</title>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#0b2342"/></linearGradient>
+    <linearGradient id="ice"><stop stop-color="#42e8e0"/><stop offset="0.55" stop-color="#52baff"/><stop offset="1" stop-color="#4375ff"/></linearGradient>
+    <radialGradient id="aura"><stop stop-color="#167bc0" stop-opacity=".28"/><stop offset="1" stop-color="#07111f" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#335779" stroke-opacity=".17"/></pattern>
+    <clipPath id="clip"><rect x="1" y="1" width="1198" height="358" rx="24"/></clipPath>
+  </defs>
+  <style>
+    text{font-family:Inter,Segoe UI,Arial,sans-serif}.mono{font-family:SFMono-Regular,Consolas,monospace}
+    @media(prefers-reduced-motion:reduce){.motion{display:none}}
+  </style>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="360" fill="url(#bg)"/>
+    <rect width="1200" height="360" fill="url(#grid)"/>
+    <ellipse cx="980" cy="160" rx="360" ry="260" fill="url(#aura)"/>
+    <path d="M0 330C250 275 365 390 625 318S970 280 1200 320V360H0Z" fill="#137597" opacity=".12"/>
+    <path d="M0 335C250 280 365 385 625 323S970 285 1200 325" fill="none" stroke="url(#ice)" opacity=".45"/>
+    <g class="motion"><path d="M-300 345Q0 270 300 345T900 345T1500 345" fill="none" stroke="#42e8e0" stroke-opacity=".2" stroke-width="2"><animateTransform attributeName="transform" type="translate" values="0 0;600 0" dur="16s" repeatCount="indefinite"/></path></g>
+    <rect x="46" y="38" width="193" height="27" rx="13.5" fill="#113348" stroke="#245c71"/>
+    <circle cx="62" cy="51.5" r="3.5" fill="#42e8e0"/>
+    <text x="76" y="56" class="mono" font-size="11" letter-spacing="1.2" fill="#a4f9f1">THE DEVELOPER'S LAB</text>
+    <text x="46" y="151" font-size="76" font-weight="750" letter-spacing="-3" fill="#f1f8ff">htakumi<tspan fill="url(#ice)">08</tspan></text>
+    <text x="49" y="200" font-size="27" font-weight="500" fill="#d6e7fa">Build. Explore. Refine.</text>
+    <text x="50" y="244" class="mono" font-size="13" letter-spacing="2.2" fill="#84a8ce">WEB / CLOUD / DEVELOPER TOOLS</text>
+    <path d="M50 275H418" stroke="#26425f"/>
+    <text x="50" y="299" class="mono" font-size="11" letter-spacing="1.5" fill="#6e94bc">IDEAS → EXPERIMENTS → WORKING SOFTWARE</text>
+    <g transform="translate(952 172)">
+      <circle r="122" fill="none" stroke="#214469"/>
+      <circle r="99" fill="none" stroke="#2e76a4" stroke-dasharray="3 10" opacity=".65"/>
+      <circle r="75" fill="#0a2037" stroke="#347794"/>
+      <ellipse rx="149" ry="54" fill="none" stroke="#3c89c7" opacity=".65" transform="rotate(-28)"/>
+      <ellipse rx="54" ry="149" fill="none" stroke="#2ca6b5" opacity=".4" transform="rotate(-28)"/>
+      <text x="0" y="19" text-anchor="middle" class="mono" font-size="60" font-weight="700" fill="url(#ice)">&lt;/&gt;</text>
+      <g class="motion"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="30s" repeatCount="indefinite"/><circle cx="0" cy="-122" r="5" fill="#42e8e0"/><circle cx="0" cy="-122" r="11" fill="#42e8e0" opacity=".12"/></g>
+      <circle cx="-98" cy="52" r="4" fill="#56acff"/>
+      <path d="M-151 0H-135M135 0H151M0-151V-135M0 135V151" stroke="#48b7d1"/>
+    </g>
+    <text x="1093" y="323" class="mono" font-size="10" fill="#6388ae">EST. / LAB</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="358" rx="24" fill="none" stroke="#254966"/>
+</svg>
