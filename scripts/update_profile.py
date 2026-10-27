@@ -148,4 +148,4 @@ def update(output: Path) -> None:
 
 
 if __name__ == "__main__":
-    update(ROOT / "assets")
+    update(ROOT / "assets" / "purple")

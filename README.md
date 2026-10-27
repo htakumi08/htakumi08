@@ -75,7 +75,7 @@ approach: Build → Explore → Refine
 
 ## ◈ Activity
 
-![GitHub activity summary](https://raw.githubusercontent.com/htakumi08/htakumi08/main/assets/stats.svg?theme=purple)
+![GitHub activity summary](https://raw.githubusercontent.com/htakumi08/htakumi08/main/assets/purple/stats.svg?theme=purple)
 
 <sub>リポジトリ数・スター・主要言語は、プロフィール用リポジトリとforkを除く公開プロジェクトから集計。Contributions / Active daysは過去1年のGitHub活動です。</sub>
 
@@ -85,7 +85,7 @@ approach: Build → Explore → Refine
 
 **日々の小さな変更を、ひとつの街に。**
 
-![Contribution City — GitHubの活動を1日1棟の建物で表現](https://raw.githubusercontent.com/htakumi08/htakumi08/main/assets/city.svg?theme=purple)
+![Contribution City — GitHubの活動を1日1棟の建物で表現](https://raw.githubusercontent.com/htakumi08/htakumi08/main/assets/purple/city.svg?theme=purple)
 
 <sub>1棟 = 1日。高さはコントリビューション数に応じて変化します。毎日自動更新。</sub>
 
@@ -94,7 +94,7 @@ approach: Build → Explore → Refine
 
 <br>
 
-![GitHub contribution heatmap with an animated scan line](https://raw.githubusercontent.com/htakumi08/htakumi08/main/assets/activity.svg?theme=purple)
+![GitHub contribution heatmap with an animated scan line](https://raw.githubusercontent.com/htakumi08/htakumi08/main/assets/purple/activity.svg?theme=purple)
 
 </details>
 

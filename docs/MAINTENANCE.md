@@ -49,3 +49,7 @@ Requires Python 3.11+ and an authenticated GitHub CLI (`gh`).
 python3 -m unittest discover -s tests -v
 python3 scripts/update_profile.py
 ```
+
+Generated visuals are stored in `assets/purple/`. Static image URLs in README.md
+are pinned to a commit to avoid stale CDN redirects; update their commit ref when
+changing the header, footer or project cards. Dynamic image URLs follow `main`.
