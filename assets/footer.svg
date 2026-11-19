@@ -1,6 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="120" viewBox="0 0 960 120" role="img" aria-label="Always building. Always learning. Thanks for stopping by.">
-<rect x="1" y="1" width="958" height="118" rx="8" fill="#17142d" stroke="#554a78"/>
+<rect x="1" y="1" width="958" height="118" rx="8" fill="#272537" stroke="#655e78"/>
 <rect x="54" y="0" width="852" height="3" fill="#c9bdff"/><rect x="84" y="0" width="34" height="3" fill="#e8cf77"/><rect x="842" y="0" width="34" height="3" fill="#e8cf77"/>
+
+  <defs>
+    <pattern id="project-dots" width="17" height="17" patternUnits="userSpaceOnUse">
+      <rect x="7" y="7" width="3.5" height="3.5" fill="#c0b7d3" fill-opacity="0.28"/>
+    </pattern>
+  </defs>
+  <rect x="24" y="10" width="128" height="100" fill="url(#project-dots)"/>
+  <rect x="808" y="10" width="128" height="100" fill="url(#project-dots)"/>
 <text x="480" y="54" text-anchor="middle" fill="#fbf8ff" font-family="Segoe UI,Arial,sans-serif" font-size="21">Always building. Always learning.</text>
 <text x="480" y="85" text-anchor="middle" fill="#c1b9dc" font-family="Consolas,monospace" font-size="12" letter-spacing="2">THANKS FOR STOPPING BY / HTAKUMI08</text>
 </svg>
