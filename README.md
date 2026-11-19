@@ -1,6 +1,6 @@
 <div align="center">
 
-![htakumi08 — Build. Explore. Refine.](https://raw.githubusercontent.com/htakumi08/htakumi08/9d2db94179fef3e5e541a86b7d55bccbb2878904/assets/header.svg?theme=purple)
+![htakumi08 — Build. Explore. Refine.](https://raw.githubusercontent.com/htakumi08/htakumi08/e37b25f406d4aebd37e629fe189258f0a62455dc/assets/header.svg?theme=penguin-pixel)
 
 **気になった技術を、動くものに。**
 
@@ -12,7 +12,7 @@ Webアプリ、AWSの構成検証、開発フローの自動化に取り組ん�
 
 <br>
 
-## ◈ About
+## ▪ About
 
 ```yaml
 handle: htakumi08
@@ -25,17 +25,17 @@ approach: Build → Explore → Refine
 
 <br>
 
-## ◈ Selected Projects
+## ▪ Selected Projects
 
-<a href="https://github.com/htakumi08/Re-Decide"><img src="https://raw.githubusercontent.com/htakumi08/htakumi08/9d2db94179fef3e5e541a86b7d55bccbb2878904/assets/project-re-decide.svg?theme=purple" width="100%" alt="Re:Decide — Decision-making journal. React, TypeScript, AWS Lambda, DynamoDB, Terraform." /></a>
+<a href="https://github.com/htakumi08/Re-Decide"><img src="https://raw.githubusercontent.com/htakumi08/htakumi08/e37b25f406d4aebd37e629fe189258f0a62455dc/assets/project-re-decide.svg?theme=penguin-pixel" width="100%" alt="Re:Decide — Decision-making journal. React, TypeScript, AWS Lambda, DynamoDB, Terraform." /></a>
 
 **[Re:Decide ↗](https://github.com/htakumi08/Re-Decide)** — 選択肢・評価基準・判断理由・振り返りを記録する、意思決定のためのプロトタイプ。
 
-<a href="https://github.com/htakumi08/devlab-board"><img src="https://raw.githubusercontent.com/htakumi08/htakumi08/9d2db94179fef3e5e541a86b7d55bccbb2878904/assets/project-devlab.svg?theme=purple" width="100%" alt="devlab-board — A playground for Go, React, PostgreSQL and AWS architecture." /></a>
+<a href="https://github.com/htakumi08/devlab-board"><img src="https://raw.githubusercontent.com/htakumi08/htakumi08/e37b25f406d4aebd37e629fe189258f0a62455dc/assets/project-devlab.svg?theme=penguin-pixel" width="100%" alt="devlab-board — A playground for Go, React, PostgreSQL and AWS architecture." /></a>
 
 **[devlab-board ↗](https://github.com/htakumi08/devlab-board)** — GoとReactで機能を試しながら、AWSの複数構成を比較する開発実験ダッシュボード。
 
-<a href="https://github.com/htakumi08/mcp-pr-review"><img src="https://raw.githubusercontent.com/htakumi08/htakumi08/9d2db94179fef3e5e541a86b7d55bccbb2878904/assets/project-mcp.svg?theme=purple" width="100%" alt="mcp-pr-review — Connect requirements and pull requests. Python, MCP, GitHub, Backlog." /></a>
+<a href="https://github.com/htakumi08/mcp-pr-review"><img src="https://raw.githubusercontent.com/htakumi08/htakumi08/e37b25f406d4aebd37e629fe189258f0a62455dc/assets/project-mcp.svg?theme=penguin-pixel" width="100%" alt="mcp-pr-review — Connect requirements and pull requests. Python, MCP, GitHub, Backlog." /></a>
 
 **[mcp-pr-review ↗](https://github.com/htakumi08/mcp-pr-review)** — GitHub PRとBacklog課題をつなぎ、要求の整理からレビューまでを支えるMCPサーバーとスキル。
 
@@ -47,7 +47,7 @@ approach: Build → Explore → Refine
 
 <br>
 
-## ◈ Tech Stack
+## ▪ Tech Stack
 
 公開プロジェクトで使用・検証している技術。
 
@@ -73,19 +73,19 @@ approach: Build → Explore → Refine
 
 <br>
 
-## ◈ Activity
+## ▪ Activity
 
-![GitHub activity summary](https://raw.githubusercontent.com/htakumi08/htakumi08/main/assets/purple/stats.svg?theme=purple)
+![GitHub activity summary](https://raw.githubusercontent.com/htakumi08/htakumi08/main/assets/purple/stats.svg?theme=penguin-pixel)
 
 <sub>リポジトリ数・スター・主要言語は、プロフィール用リポジトリとforkを除く公開プロジェクトから集計。Contributions / Active daysは過去1年のGitHub活動です。</sub>
 
 <br>
 
-## ◈ Contribution City
+## ▪ Contribution City
 
 **日々の小さな変更を、ひとつの街に。**
 
-![Contribution City — GitHubの活動を1日1棟の建物で表現](https://raw.githubusercontent.com/htakumi08/htakumi08/main/assets/purple/city.svg?theme=purple)
+![Contribution City — GitHubの活動を1日1棟の建物で表現](https://raw.githubusercontent.com/htakumi08/htakumi08/main/assets/purple/city.svg?theme=penguin-pixel)
 
 <sub>1棟 = 1日。高さはコントリビューション数に応じて変化します。毎日自動更新。</sub>
 
@@ -94,13 +94,13 @@ approach: Build → Explore → Refine
 
 <br>
 
-![GitHub contribution heatmap with an animated scan line](https://raw.githubusercontent.com/htakumi08/htakumi08/main/assets/purple/activity.svg?theme=purple)
+![GitHub contribution heatmap with an animated scan line](https://raw.githubusercontent.com/htakumi08/htakumi08/main/assets/purple/activity.svg?theme=penguin-pixel)
 
 </details>
 
 <br><br>
 
-![Always building. Always learning.](https://raw.githubusercontent.com/htakumi08/htakumi08/9d2db94179fef3e5e541a86b7d55bccbb2878904/assets/footer.svg?theme=purple)
+![Always building. Always learning.](https://raw.githubusercontent.com/htakumi08/htakumi08/e37b25f406d4aebd37e629fe189258f0a62455dc/assets/footer.svg?theme=penguin-pixel)
 
 <div align="center">
 <sub>Layout inspiration: <a href="https://github.com/uzuchan">uzuchan</a> · Icons: <a href="https://skillicons.dev">Skill Icons</a> · <a href="./docs/MAINTENANCE.md">Profile maintenance</a></sub>

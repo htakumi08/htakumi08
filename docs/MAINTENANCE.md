@@ -2,7 +2,9 @@
 
 ## Design
 
-Midnight purple `#100a1d`, electric violet `#9b6dff`, soft lavender `#c4a2ff`.
+Penguin Pixel Lab palette: ink violet `#17142d`, lavender `#c9bdff`, muted violet
+`#8f7bd1`, warm cream `#f6efdc`, and beak gold `#e8cf77`. Pixel squares and
+small gold details echo the profile avatar while keeping the layout restrained.
 The header, footer, project cards, city, statistics and heatmap are original SVG artwork.
 The section structure was inspired by [uzuchan](https://github.com/uzuchan).
 Technology icons are served by [Skill Icons](https://github.com/tandpfun/skill-icons).
