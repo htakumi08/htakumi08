@@ -1,6 +1,6 @@
 <div align="center">
 
-![htakumi08 — Build. Explore. Refine.](https://raw.githubusercontent.com/htakumi08/htakumi08/e37b25f406d4aebd37e629fe189258f0a62455dc/assets/header.svg?theme=penguin-pixel)
+![htakumi08 — Build. Explore. Refine.](https://raw.githubusercontent.com/htakumi08/htakumi08/d8e05c6c9bb062ed8100c63b9cc79498c7817eba/assets/header.svg?theme=lavender-dots)
 
 **気になった技術を、動くものに。**
 
@@ -10,7 +10,7 @@ Webアプリ、AWSの構成検証、開発フローの自動化に取り組ん�
 
 </div>
 
-<br>
+![][pixel-divider]
 
 ## ▪ About
 
@@ -23,19 +23,19 @@ focus:
 approach: Build → Explore → Refine
 ```
 
-<br>
+![][pixel-divider]
 
 ## ▪ Selected Projects
 
-<a href="https://github.com/htakumi08/Re-Decide"><img src="https://raw.githubusercontent.com/htakumi08/htakumi08/e37b25f406d4aebd37e629fe189258f0a62455dc/assets/project-re-decide.svg?theme=penguin-pixel" width="100%" alt="Re:Decide — Decision-making journal. React, TypeScript, AWS Lambda, DynamoDB, Terraform." /></a>
+<a href="https://github.com/htakumi08/Re-Decide"><img src="https://raw.githubusercontent.com/htakumi08/htakumi08/d8e05c6c9bb062ed8100c63b9cc79498c7817eba/assets/project-re-decide.svg?theme=lavender-dots" width="100%" alt="Re:Decide — Decision-making journal. React, TypeScript, AWS Lambda, DynamoDB, Terraform." /></a>
 
 **[Re:Decide ↗](https://github.com/htakumi08/Re-Decide)** — 選択肢・評価基準・判断理由・振り返りを記録する、意思決定のためのプロトタイプ。
 
-<a href="https://github.com/htakumi08/devlab-board"><img src="https://raw.githubusercontent.com/htakumi08/htakumi08/e37b25f406d4aebd37e629fe189258f0a62455dc/assets/project-devlab.svg?theme=penguin-pixel" width="100%" alt="devlab-board — A playground for Go, React, PostgreSQL and AWS architecture." /></a>
+<a href="https://github.com/htakumi08/devlab-board"><img src="https://raw.githubusercontent.com/htakumi08/htakumi08/d8e05c6c9bb062ed8100c63b9cc79498c7817eba/assets/project-devlab.svg?theme=lavender-dots" width="100%" alt="devlab-board — A playground for Go, React, PostgreSQL and AWS architecture." /></a>
 
 **[devlab-board ↗](https://github.com/htakumi08/devlab-board)** — GoとReactで機能を試しながら、AWSの複数構成を比較する開発実験ダッシュボード。
 
-<a href="https://github.com/htakumi08/mcp-pr-review"><img src="https://raw.githubusercontent.com/htakumi08/htakumi08/e37b25f406d4aebd37e629fe189258f0a62455dc/assets/project-mcp.svg?theme=penguin-pixel" width="100%" alt="mcp-pr-review — Connect requirements and pull requests. Python, MCP, GitHub, Backlog." /></a>
+<a href="https://github.com/htakumi08/mcp-pr-review"><img src="https://raw.githubusercontent.com/htakumi08/htakumi08/d8e05c6c9bb062ed8100c63b9cc79498c7817eba/assets/project-mcp.svg?theme=lavender-dots" width="100%" alt="mcp-pr-review — Connect requirements and pull requests. Python, MCP, GitHub, Backlog." /></a>
 
 **[mcp-pr-review ↗](https://github.com/htakumi08/mcp-pr-review)** — GitHub PRとBacklog課題をつなぎ、要求の整理からレビューまでを支えるMCPサーバーとスキル。
 
@@ -45,7 +45,7 @@ approach: Build → Explore → Refine
 
 </div>
 
-<br>
+![][pixel-divider]
 
 ## ▪ Tech Stack
 
@@ -71,7 +71,7 @@ approach: Build → Explore → Refine
 
 </div>
 
-<br>
+![][pixel-divider]
 
 ## ▪ Activity
 
@@ -79,7 +79,7 @@ approach: Build → Explore → Refine
 
 <sub>リポジトリ数・スター・主要言語は、プロフィール用リポジトリとforkを除く公開プロジェクトから集計。Contributions / Active daysは過去1年のGitHub活動です。</sub>
 
-<br>
+![][pixel-divider]
 
 ## ▪ Contribution City
 
@@ -100,8 +100,10 @@ approach: Build → Explore → Refine
 
 <br><br>
 
-![Always building. Always learning.](https://raw.githubusercontent.com/htakumi08/htakumi08/e37b25f406d4aebd37e629fe189258f0a62455dc/assets/footer.svg?theme=penguin-pixel)
+![Always building. Always learning.](https://raw.githubusercontent.com/htakumi08/htakumi08/d8e05c6c9bb062ed8100c63b9cc79498c7817eba/assets/footer.svg?theme=lavender-dots)
 
 <div align="center">
 <sub>Layout inspiration: <a href="https://github.com/uzuchan">uzuchan</a> · Icons: <a href="https://skillicons.dev">Skill Icons</a> · <a href="./docs/MAINTENANCE.md">Profile maintenance</a></sub>
 </div>
+
+[pixel-divider]: https://raw.githubusercontent.com/htakumi08/htakumi08/d8e05c6c9bb062ed8100c63b9cc79498c7817eba/assets/pixel-divider.svg?theme=lavender-dots

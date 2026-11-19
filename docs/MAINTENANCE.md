@@ -4,7 +4,9 @@
 
 Penguin Pixel Lab palette: ink violet `#17142d`, lavender `#c9bdff`, muted violet
 `#8f7bd1`, warm cream `#f6efdc`, and beak gold `#e8cf77`. Pixel squares and
-small gold details echo the profile avatar while keeping the layout restrained.
+small gold details echo the profile avatar. The banner, project cards and footer
+use a slate lavender surface `#272537` and square dots in `#c0b7d3`. A lighter
+transparent dot strip separates the README sections.
 The header, footer, project cards, city, statistics and heatmap are original SVG artwork.
 The section structure was inspired by [uzuchan](https://github.com/uzuchan).
 Technology icons are served by [Skill Icons](https://github.com/tandpfun/skill-icons).
@@ -14,6 +16,7 @@ Technology icons are served by [Skill Icons](https://github.com/tandpfun/skill-i
 - Bio and project descriptions: `README.md`
 - Banner: `assets/header.svg`
 - Project cards: `assets/project-*.svg`
+- Section separator: `assets/pixel-divider.svg`
 - Stats, city and heatmap: `scripts/update_profile.py`
 
 The biography and stack were based on the public READMEs of Re-Decide,
@@ -54,4 +57,4 @@ python3 scripts/update_profile.py
 
 Generated visuals are stored in `assets/purple/`. Static image URLs in README.md
 are pinned to a commit to avoid stale CDN redirects; update their commit ref when
-changing the header, footer or project cards. Dynamic image URLs follow `main`.
+changing the header, footer, project cards or section separator. Dynamic image URLs follow `main`.
