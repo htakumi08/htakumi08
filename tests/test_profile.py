@@ -28,8 +28,8 @@ class ProfileTests(unittest.TestCase):
         days = [{"date": "2026-10-26", "weekday": 1, "count": 2, "week": 0},
                 {"date": "2026-10-28", "weekday": 3, "count": 5, "week": 0}]
         svg = profile.render_city(days)
-        self.assertIn("2026-10-26: 2 contributions", svg)
-        self.assertIn("2026-10-28: 5 contributions", svg)
+        self.assertIn("2026-10-26　2件", svg)
+        self.assertIn("2026-10-28　5件", svg)
         self.assertEqual(svg.count('class="building"'), 2)
         ET.fromstring(svg)
 

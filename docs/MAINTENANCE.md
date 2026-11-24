@@ -1,60 +1,40 @@
-# Profile maintenance
+# プロフィールの更新方法
 
-## Design
+## デザイン
 
-Penguin Pixel Lab palette: ink violet `#17142d`, lavender `#c9bdff`, muted violet
-`#8f7bd1`, warm cream `#f6efdc`, and beak gold `#e8cf77`. Pixel squares and
-small gold details echo the profile avatar. The banner, project cards and footer
-use a slate lavender surface `#272537` and square dots in `#c0b7d3`. A lighter
-transparent dot strip separates the README sections.
-The header, footer, project cards, city, statistics and heatmap are original SVG artwork.
-The section structure was inspired by [uzuchan](https://github.com/uzuchan).
-Technology icons are served by [Skill Icons](https://github.com/tandpfun/skill-icons).
+ペンギン開発室の配色は、濃い紫 `#17142d`、ラベンダー `#c9bdff`、くすんだ紫 `#8f7bd1`、クリーム色 `#f6efdc`、くちばしの金色 `#e8cf77` です。ピクセルの装飾と金色の差し色を、プロフィールのアバターに合わせています。バナー、プロジェクトカード、フッターの背景は `#272537`、四角いドットは `#c0b7d3` です。READMEの各セクションは、背景が透けるドットの区切り線で分けています。
 
-## Editing
+バナー、カード、フッター、街、活動の概要とヒートマップはオリジナルのSVGです。セクション構成は [uzuchan](https://github.com/uzuchan) さんのプロフィールを参考にしています。技術アイコンは [Skill Icons](https://github.com/tandpfun/skill-icons) を使用しています。
 
-- Bio and project descriptions: `README.md`
-- Banner: `assets/header.svg`
-- Project cards: `assets/project-*.svg`
-- Section separator: `assets/pixel-divider.svg`
-- Stats, city and heatmap: `scripts/update_profile.py`
+## 編集するファイル
 
-The biography and stack were based on the public READMEs of Re-Decide,
-devlab-board and mcp-pr-review. They describe areas being used/explored,
-not proficiency levels or employment history.
+- 自己紹介とプロジェクトの説明は `README.md`
+- バナーは `assets/header.svg`
+- プロジェクトカードは `assets/project-*.svg`
+- 区切り線は `assets/pixel-divider.svg`
+- 活動の概要、街、ヒートマップは `scripts/update_profile.py`
 
-## Updates
+自己紹介と技術一覧は、Re:Decide、devlab-board、mcp-pr-review の公開READMEをもとに、使っている技術や試している構成を紹介しています。
 
-GitHub Actions runs daily at 06:23 JST (scheduling can be delayed by GitHub).
-To update immediately, open Actions → Refresh profile visuals → Run workflow.
-The workflow uses the repository's temporary `GITHUB_TOKEN`; no personal token is needed.
+## 自動更新
 
-The generator reads public owned repositories using the REST API, and the
-last year's aggregate contribution calendar using GraphQL. No private repository
-names, descriptions, issues or source code are requested or published.
-GitHub's own contribution counting rules apply; these are not raw commit counts.
+GitHub Actionsは毎日06:23（日本時間）に動きます。実行時刻はGitHubの都合で遅れることがあります。すぐに更新したいときは、Actions → Refresh profile visuals → Run workflow を選びます。ワークフローはリポジトリの一時的な `GITHUB_TOKEN` を使います。
 
-Repository metrics exclude forks and this profile repository. "Primary repository
-languages" means GitHub's primary language per public project, not language
-proficiency or percentage of code. The Blade classification of the review project
-comes from its Laravel sample application.
+公開リポジトリはREST APIで、過去1年分の日別コントリビューション数はGraphQLで取得します。非公開リポジトリの名前、説明、Issue、ソースコードは取得・公開しません。コントリビューション数はGitHubの集計ルールに従います。
 
-City heights use `9 + 12 * log2(contributions + 1)` for active days; empty days are
-low tiles. The scan line in the heatmap is decorative and does not alter counts.
+リポジトリ数・スター数・主要言語の集計では、フォークとプロフィール用リポジトリを除きます。「リポジトリの主要言語」は、GitHubが各公開リポジトリに割り当てた言語です。mcp-pr-review の Blade 表示は、同梱の Laravel サンプルアプリに由来します。
 
-If API access fails, generation stops before replacing the existing assets.
-No external stats-card service is needed. Animated decoration is hidden when
-the image renderer respects `prefers-reduced-motion`.
+活動があった日の建物の高さは `9 + 12 * log2(コントリビューション数 + 1)` で計算します。活動のなかった日は低いタイルで表します。ヒートマップの走査線は装飾です。
 
-## Local validation
+APIからデータを取得できない場合は、それまでの画像を保持します。活動カードはこのリポジトリ内のSVGを使っています。表示環境が `prefers-reduced-motion` に対応している場合、アニメーションは非表示になります。
 
-Requires Python 3.11+ and an authenticated GitHub CLI (`gh`).
+## ローカルでの確認
+
+Python 3.11以降と、ログイン済みのGitHub CLI（`gh`）を使います。
 
 ```sh
 python3 -m unittest discover -s tests -v
 python3 scripts/update_profile.py
 ```
 
-Generated visuals are stored in `assets/purple/`. Static image URLs in README.md
-are pinned to a commit to avoid stale CDN redirects; update their commit ref when
-changing the header, footer, project cards or section separator. Dynamic image URLs follow `main`.
+自動生成するSVGは `assets/purple/` にあります。READMEの静的画像のURLはキャッシュ対策でコミットを固定しています。バナー、フッター、カード、区切り線の編集後は、READMEのURLのコミットを更新します。自動生成するSVGのURLは `main` を参照します。

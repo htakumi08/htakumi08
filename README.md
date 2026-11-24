@@ -1,71 +1,66 @@
 <div align="center">
 
-![htakumi08 — Build. Explore. Refine.](https://raw.githubusercontent.com/htakumi08/htakumi08/d8e05c6c9bb062ed8100c63b9cc79498c7817eba/assets/header.svg?theme=lavender-dots)
-
-**気になった技術を、動くものに。**
+![htakumi08のプロフィール｜気になった技術を、動くものに。](https://raw.githubusercontent.com/htakumi08/htakumi08/2ee52a112a787bd0e8de677fe80a0d1b05c9b87a/assets/header.svg?theme=lavender-dots)
 
 Webアプリ、AWSの構成検証、開発フローの自動化に取り組んでいます。
 
-[Projects](#user-content--selected-projects) · [Tech Stack](#user-content--tech-stack) · [Activity](#user-content--activity) · [Contribution City](#user-content--contribution-city)
+[プロジェクト](#user-content--プロジェクト) · [使っている技術](#user-content--使っている技術) · [活動](#user-content--活動) · [コントリビューションの街](#user-content--コントリビューションの街)
 
 </div>
 
 ![][pixel-divider]
 
-## ▪ About
+## ▪ 自己紹介
 
-```yaml
-handle: htakumi08
-focus:
-  - Web applications & backend APIs
-  - AWS architecture & infrastructure as code
-  - MCP & developer workflow automation
-approach: Build → Explore → Refine
-```
+気になった技術は、小さくつくって試し、使いながら改善しています。
+
+- WebアプリとバックエンドAPIの開発
+- AWSの構成検証とTerraformによるインフラ管理
+- MCPを使った開発フローの自動化
 
 ![][pixel-divider]
 
-## ▪ Selected Projects
+## ▪ プロジェクト
 
-<a href="https://github.com/htakumi08/Re-Decide"><img src="https://raw.githubusercontent.com/htakumi08/htakumi08/d8e05c6c9bb062ed8100c63b9cc79498c7817eba/assets/project-re-decide.svg?theme=lavender-dots" width="100%" alt="Re:Decide — Decision-making journal. React, TypeScript, AWS Lambda, DynamoDB, Terraform." /></a>
+<a href="https://github.com/htakumi08/Re-Decide"><img src="https://raw.githubusercontent.com/htakumi08/htakumi08/2ee52a112a787bd0e8de677fe80a0d1b05c9b87a/assets/project-re-decide.svg?theme=lavender-dots" width="100%" alt="Re:Decide｜選んだ理由を記録し、あとで振り返る。React、TypeScript、AWS Lambda、DynamoDB、Terraform" /></a>
 
-**[Re:Decide ↗](https://github.com/htakumi08/Re-Decide)** — 選択肢・評価基準・判断理由・振り返りを記録する、意思決定のためのプロトタイプ。
+**[Re:Decide ↗](https://github.com/htakumi08/Re-Decide)** — 選択肢や評価基準、決めた理由を記録し、あとから振り返るための試作アプリ。
 
-<a href="https://github.com/htakumi08/devlab-board"><img src="https://raw.githubusercontent.com/htakumi08/htakumi08/d8e05c6c9bb062ed8100c63b9cc79498c7817eba/assets/project-devlab.svg?theme=lavender-dots" width="100%" alt="devlab-board — A playground for Go, React, PostgreSQL and AWS architecture." /></a>
+<a href="https://github.com/htakumi08/devlab-board"><img src="https://raw.githubusercontent.com/htakumi08/htakumi08/2ee52a112a787bd0e8de677fe80a0d1b05c9b87a/assets/project-devlab.svg?theme=lavender-dots" width="100%" alt="devlab-board｜気になる技術やAWSの構成を試す。Go、React、PostgreSQL、Docker" /></a>
 
-**[devlab-board ↗](https://github.com/htakumi08/devlab-board)** — GoとReactで機能を試しながら、AWSの複数構成を比較する開発実験ダッシュボード。
+**[devlab-board ↗](https://github.com/htakumi08/devlab-board)** — GoとReactで新しい機能を試し、AWSの構成を比較するためのダッシュボード。
 
-<a href="https://github.com/htakumi08/mcp-pr-review"><img src="https://raw.githubusercontent.com/htakumi08/htakumi08/d8e05c6c9bb062ed8100c63b9cc79498c7817eba/assets/project-mcp.svg?theme=lavender-dots" width="100%" alt="mcp-pr-review — Connect requirements and pull requests. Python, MCP, GitHub, Backlog." /></a>
+<a href="https://github.com/htakumi08/mcp-pr-review"><img src="https://raw.githubusercontent.com/htakumi08/htakumi08/2ee52a112a787bd0e8de677fe80a0d1b05c9b87a/assets/project-mcp.svg?theme=lavender-dots" width="100%" alt="mcp-pr-review｜Backlogの課題とGitHubのPRをつなぐ。Python、MCP、GitHub、Backlog" /></a>
 
-**[mcp-pr-review ↗](https://github.com/htakumi08/mcp-pr-review)** — GitHub PRとBacklog課題をつなぎ、要求の整理からレビューまでを支えるMCPサーバーとスキル。
+**[mcp-pr-review ↗](https://github.com/htakumi08/mcp-pr-review)** — Backlogの課題とGitHubのPRをつなぎ、要件の確認からPRレビューまでを支援するMCPサーバーとスキル。
 
 <div align="right">
 
-[Explore all repositories →](https://github.com/htakumi08?tab=repositories)
+[すべてのリポジトリを見る →](https://github.com/htakumi08?tab=repositories)
 
 </div>
 
 ![][pixel-divider]
 
-## ▪ Tech Stack
+## ▪ 使っている技術
 
-公開プロジェクトで使用・検証している技術。
+公開プロジェクトで使ったり、試したりしている技術です。
 
 <div align="center">
 
-**Languages & Web**
+**言語・Web開発**
 
 <img src="https://skillicons.dev/icons?i=ts,react,go,py,php&theme=dark" alt="TypeScript, React, Go, Python, PHP" />
 
 <br><br>
 
-**Cloud & Infrastructure**
+**クラウド・インフラ**
 
 <img src="https://skillicons.dev/icons?i=aws,terraform,docker,postgres&theme=dark" alt="AWS, Terraform, Docker, PostgreSQL" />
 
 <br><br>
 
-**Tools & Workflow**
+**開発ツール・自動化**
 
 <img src="https://skillicons.dev/icons?i=git,github,githubactions&theme=dark" alt="Git, GitHub, GitHub Actions" />
 
@@ -73,37 +68,37 @@ approach: Build → Explore → Refine
 
 ![][pixel-divider]
 
-## ▪ Activity
+## ▪ 活動
 
-![GitHub activity summary](https://raw.githubusercontent.com/htakumi08/htakumi08/main/assets/purple/stats.svg?theme=penguin-pixel)
+![GitHubの活動の概要](https://raw.githubusercontent.com/htakumi08/htakumi08/main/assets/purple/stats.svg?theme=penguin-pixel-ja)
 
-<sub>リポジトリ数・スター・主要言語は、プロフィール用リポジトリとforkを除く公開プロジェクトから集計。Contributions / Active daysは過去1年のGitHub活動です。</sub>
+<sub>リポジトリ数・スター数・主要言語の集計では、プロフィール用リポジトリとフォークを除いています。コントリビューション数と活動日数は過去1年分です。</sub>
 
 ![][pixel-divider]
 
-## ▪ Contribution City
+## ▪ コントリビューションの街
 
 **日々の小さな変更を、ひとつの街に。**
 
-![Contribution City — GitHubの活動を1日1棟の建物で表現](https://raw.githubusercontent.com/htakumi08/htakumi08/main/assets/purple/city.svg?theme=penguin-pixel)
+![GitHubの活動を1日1棟の建物で表した街](https://raw.githubusercontent.com/htakumi08/htakumi08/main/assets/purple/city.svg?theme=penguin-pixel-ja)
 
-<sub>1棟 = 1日。高さはコントリビューション数に応じて変化します。毎日自動更新。</sub>
+<sub>建物1棟が1日分です。その日のコントリビューション数が多いほど高くなります。毎日自動で更新します。</sub>
 
 <details>
-<summary>See the signal — 活動ヒートマップ</summary>
+<summary>活動ヒートマップを見る</summary>
 
 <br>
 
-![GitHub contribution heatmap with an animated scan line](https://raw.githubusercontent.com/htakumi08/htakumi08/main/assets/purple/activity.svg?theme=penguin-pixel)
+![走査線が動くGitHubの活動ヒートマップ](https://raw.githubusercontent.com/htakumi08/htakumi08/main/assets/purple/activity.svg?theme=penguin-pixel-ja)
 
 </details>
 
 <br><br>
 
-![Always building. Always learning.](https://raw.githubusercontent.com/htakumi08/htakumi08/d8e05c6c9bb062ed8100c63b9cc79498c7817eba/assets/footer.svg?theme=lavender-dots)
+![つくりながら、学んでいます。見に来てくれてありがとうございます。](https://raw.githubusercontent.com/htakumi08/htakumi08/2ee52a112a787bd0e8de677fe80a0d1b05c9b87a/assets/footer.svg?theme=lavender-dots)
 
 <div align="center">
-<sub>Layout inspiration: <a href="https://github.com/uzuchan">uzuchan</a> · Icons: <a href="https://skillicons.dev">Skill Icons</a> · <a href="./docs/MAINTENANCE.md">Profile maintenance</a></sub>
+<sub>デザインの参考：<a href="https://github.com/uzuchan">uzuchan</a> · アイコン：<a href="https://skillicons.dev">Skill Icons</a> · <a href="./docs/MAINTENANCE.md">プロフィールの更新方法</a></sub>
 </div>
 
-[pixel-divider]: https://raw.githubusercontent.com/htakumi08/htakumi08/d8e05c6c9bb062ed8100c63b9cc79498c7817eba/assets/pixel-divider.svg?theme=lavender-dots
+[pixel-divider]: https://raw.githubusercontent.com/htakumi08/htakumi08/2ee52a112a787bd0e8de677fe80a0d1b05c9b87a/assets/pixel-divider.svg?theme=lavender-dots
