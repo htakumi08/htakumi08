@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="176" viewBox="0 0 960 176" role="img" aria-label="devlab-board">
-<title>devlab-board</title><style>text{font-family:Inter,Segoe UI,Arial,sans-serif}.mono{font-family:SFMono-Regular,Consolas,monospace}</style>
+<title>devlab-board</title><style>text{font-family:Inter,Segoe UI,Arial,"Hiragino Sans","Yu Gothic",Meiryo,"Noto Sans CJK JP",sans-serif}.mono{font-family:SFMono-Regular,Consolas,"Hiragino Sans","Yu Gothic",Meiryo,"Noto Sans CJK JP",monospace}</style>
 <rect x="1" y="1" width="958" height="174" rx="8" fill="#272537" stroke="#655e78"/>
   <defs>
     <pattern id="project-dots" width="17" height="17" patternUnits="userSpaceOnUse">
@@ -8,5 +8,5 @@
   </defs>
   <rect x="613" y="8" width="338" height="160" fill="url(#project-dots)"/>
   <rect x="20" y="20" width="6" height="136" fill="#c9bdff"/>
-<text x="50" y="48" font-size="11" fill="#c9bdff" class="mono" letter-spacing="2">PROJECT / 02</text><text x="49" y="89" font-size="32" fill="#fbf8ff" font-weight="700">devlab-board</text><text x="50" y="119" font-size="16" fill="#c1b9dc">A playground for ideas and architecture.</text><text x="50" y="151" font-size="11" fill="#c9bdff" class="mono" letter-spacing="1">GO / REACT / POSTGRESQL / DOCKER</text>
+<text x="50" y="48" font-size="11" fill="#c9bdff" class="mono" letter-spacing="2">プロジェクト 02</text><text x="49" y="89" font-size="32" fill="#fbf8ff" font-weight="700">devlab-board</text><text x="50" y="119" font-size="16" fill="#c1b9dc">気になる技術やAWSの構成を試す。</text><text x="50" y="151" font-size="11" fill="#c9bdff" class="mono" letter-spacing="1">Go / React / PostgreSQL / Docker</text>
 <rect x="816" y="46" width="84" height="84" fill="#28233d" stroke="#776a9c"/><rect x="834" y="64" width="48" height="48" fill="#40365e"/><path d="M846 70H858V82H846ZM870 70H882V82H870ZM846 94H858V106H846ZM870 94H882V106H870Z" fill="#c9bdff"/><rect x="858" y="82" width="12" height="12" fill="#e8cf77"/></svg>

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="176" viewBox="0 0 960 176" role="img" aria-label="Re:Decide">
-<title>Re:Decide</title><style>text{font-family:Inter,Segoe UI,Arial,sans-serif}.mono{font-family:SFMono-Regular,Consolas,monospace}</style>
+<title>Re:Decide</title><style>text{font-family:Inter,Segoe UI,Arial,"Hiragino Sans","Yu Gothic",Meiryo,"Noto Sans CJK JP",sans-serif}.mono{font-family:SFMono-Regular,Consolas,"Hiragino Sans","Yu Gothic",Meiryo,"Noto Sans CJK JP",monospace}</style>
 <rect x="1" y="1" width="958" height="174" rx="8" fill="#272537" stroke="#655e78"/>
   <defs>
     <pattern id="project-dots" width="17" height="17" patternUnits="userSpaceOnUse">
@@ -8,5 +8,5 @@
   </defs>
   <rect x="613" y="8" width="338" height="160" fill="url(#project-dots)"/>
   <rect x="20" y="20" width="6" height="136" fill="#e8cf77"/>
-<text x="50" y="48" font-size="11" fill="#e8cf77" class="mono" letter-spacing="2">PROJECT / 01</text><text x="49" y="89" font-size="32" fill="#fbf8ff" font-weight="700">Re:Decide</text><text x="50" y="119" font-size="16" fill="#c1b9dc">Make the decision. Keep the reasoning.</text><text x="50" y="151" font-size="11" fill="#c9bdff" class="mono" letter-spacing="1">REACT / TYPESCRIPT / AWS / TERRAFORM</text>
+<text x="50" y="48" font-size="11" fill="#e8cf77" class="mono" letter-spacing="2">プロジェクト 01</text><text x="49" y="89" font-size="32" fill="#fbf8ff" font-weight="700">Re:Decide</text><text x="50" y="119" font-size="16" fill="#c1b9dc">選んだ理由を記録し、あとで振り返る。</text><text x="50" y="151" font-size="11" fill="#c9bdff" class="mono" letter-spacing="1">React / TypeScript / AWS / Terraform</text>
 <rect x="816" y="46" width="84" height="84" fill="#28233d" stroke="#776a9c"/><rect x="834" y="64" width="48" height="48" fill="#40365e"/><path d="M842 98L870 70M854 70H870V86" fill="none" stroke="#e8cf77" stroke-width="7" stroke-linecap="square"/></svg>
